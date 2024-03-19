@@ -1,0 +1,44 @@
+:root {
+    --preto: #000000;
+    --branco: #FFFAF0;
+    --roxo: #BA55D3;
+}
+*{
+    color: var(--fontColor);
+}
+body{
+    backdrop-filter: blur();
+  max-width: 50%; /**altura **/
+  max-height: 50%; /**largura**/
+  padding: 50px 40px; /**preencimento em volta **/
+  background: var(--bg);
+}
+h1{
+   font-family: Copperplate, Copperplate Gothic Light, fantasy;
+   text-align: center;
+   color: blueviolet;
+}
+li{ 
+    list-style: circle;
+}
+button{
+    color: var(--btnFontColor);
+    background-image: url(https://th.bing.com/th/id/OIP.cKoc9f56KPSiAZ8MvV-qfgAAAA?rs=1&pid=ImgDetMain);
+    background-size: 10px;
+    max-width: 10%;
+    max-height: 10%;
+    border-radius: 10px;
+}
+.light-theme{
+    --bg: var(--branco);
+    --fontColor: var(--preto);
+    --btnFontColor: var(--branco);
+}
+.dark-theme{
+    --bg: var(--preto);
+    --fontColor: var(--branco);
+    --btnFontColor: var(--preto);
+
+}
+
+
